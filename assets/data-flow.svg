@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="210" viewBox="0 0 1280 210" fill="none">
+  <title>Connect systems, govern access, enable possibilities.</title>
+  <desc>Animated data packets flow from connected sources through a governed data platform to analytics and AI.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="210" gradientUnits="userSpaceOnUse"><stop stop-color="#0C1525"/><stop offset="1" stop-color="#102734"/></linearGradient>
+    <linearGradient id="line" x1="240" y1="0" x2="1040" y2="0" gradientUnits="userSpaceOnUse"><stop stop-color="#5FE8CF"/><stop offset="1" stop-color="#5AC6F6"/></linearGradient>
+    <filter id="light" x="-200%" y="-200%" width="500%" height="500%"><feGaussianBlur stdDeviation="3"/></filter>
+    <path id="inA" d="M282 59C344 59 340 105 411 105"/>
+    <path id="inB" d="M282 105H411"/>
+    <path id="inC" d="M282 151C344 151 340 105 411 105"/>
+    <path id="mid" d="M634 105H705"/>
+    <path id="outA" d="M865 105C933 105 932 74 996 74"/>
+    <path id="outB" d="M865 105C933 105 932 137 996 137"/>
+    <style>
+      @keyframes breathe{0%,100%{opacity:.4}50%{opacity:1}}
+      .status{animation:breathe 4s ease-in-out infinite}
+      @media(prefers-reduced-motion:reduce){.packet{display:none}.status{animation:none}}
+    </style>
+  </defs>
+  <rect width="1280" height="210" rx="18" fill="url(#bg)"/>
+  <g stroke="url(#line)" stroke-opacity=".35" stroke-width="1.5"><use href="#inA"/><use href="#inB"/><use href="#inC"/><use href="#mid"/><use href="#outA"/><use href="#outB"/></g>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <g fill="#101E30" stroke="#2B4655"><rect x="54" y="39" width="228" height="40" rx="10"/><rect x="54" y="85" width="228" height="40" rx="10"/><rect x="54" y="131" width="228" height="40" rx="10"/></g>
+    <g fill="#AFC6D7" font-size="17"><text x="84" y="65">Enterprise sources</text><text x="84" y="111">Cloud storage</text><text x="84" y="157">APIs &amp; services</text></g>
+    <rect x="411" y="48" width="223" height="114" rx="16" fill="#12313A" stroke="#397769"/>
+    <circle class="status" cx="437" cy="75" r="4" fill="#68F2D5"/>
+    <text x="454" y="80" fill="#91DECA" font-size="12" font-weight="600" letter-spacing="2">RELIABLE FOUNDATION</text>
+    <text x="433" y="115" fill="#E3FAF5" font-size="24" font-weight="600">Data platforms</text>
+    <text x="433" y="140" fill="#96B8BC" font-size="14">Informatica / Databricks</text>
+    <rect x="705" y="62" width="160" height="87" rx="14" fill="#112A38" stroke="#365C75"/>
+    <path d="M727 80L736 76L745 80V87C745 94 736 98 736 98C736 98 727 94 727 87Z" stroke="#74CDED" stroke-width="1.5"/>
+    <text x="753" y="91" fill="#DAEDF6" font-size="18" font-weight="600">Governed</text>
+    <text x="726" y="127" fill="#95AEC1" font-size="14">Trusted access</text>
+    <g fill="#112337" stroke="#2E4D65"><rect x="996" y="50" width="228" height="47" rx="11"/><rect x="996" y="113" width="228" height="47" rx="11"/></g>
+    <text x="1023" y="80" fill="#BBD9EB" font-size="18">Analytics &amp; insights</text>
+    <text x="1023" y="143" fill="#BBD9EB" font-size="18">AI / ML readiness</text>
+    <text x="640" y="194" text-anchor="middle" fill="#6D96A6" font-family="Consolas, monospace" font-size="11" letter-spacing="2">CONNECT SYSTEMS → GOVERN ACCESS → ENABLE POSSIBILITIES</text>
+  </g>
+  <g fill="#78F8DE">
+    <circle class="packet" r="3"><animateMotion dur="4s" repeatCount="indefinite"><mpath href="#inA"/></animateMotion></circle>
+    <circle class="packet" r="3"><animateMotion dur="4s" begin="-1.4s" repeatCount="indefinite"><mpath href="#inB"/></animateMotion></circle>
+    <circle class="packet" r="3"><animateMotion dur="4s" begin="-2.8s" repeatCount="indefinite"><mpath href="#inC"/></animateMotion></circle>
+    <circle class="packet" r="3"><animateMotion dur="3s" repeatCount="indefinite"><mpath href="#mid"/></animateMotion></circle>
+  </g>
+  <g fill="#7ACEFF">
+    <circle class="packet" r="3"><animateMotion dur="4s" begin="-2s" repeatCount="indefinite"><mpath href="#outA"/></animateMotion></circle>
+    <circle class="packet" r="3"><animateMotion dur="4s" repeatCount="indefinite"><mpath href="#outB"/></animateMotion></circle>
+  </g>
+</svg>
