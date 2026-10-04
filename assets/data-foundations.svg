@@ -1,5 +1,5 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1280" height="600" viewBox="0 0 1280 600" fill="none">
-  <title>Nikhil Kumar Surineni - I love Data. Data Platform Engineer.</title>
+  <title>Nikhil Kumar Surineni - Engineering the foundations of trusted data.</title>
   <desc>A luminous heart built from a network of data points, surrounded by cloud, governance, and automation orbits.</desc>
   <defs>
     <linearGradient id="background" x1="0" y1="0" x2="1280" y2="600" gradientUnits="userSpaceOnUse"><stop stop-color="#080D1B"/><stop offset="0.55" stop-color="#0B1425"/><stop offset="1" stop-color="#0E2030"/></linearGradient>
@@ -14,7 +14,16 @@
     <clipPath id="heartClip"><use href="#heartPath"/></clipPath>
     <path id="orbitA" d="M985 95a190 190 0 1 1 -0.1 0"/>
     <path id="orbitB" d="M770 285C770 220 1200 220 1200 285C1200 350 770 350 770 285Z"/>
-    <style>.particle{opacity:0.85}@media (prefers-reduced-motion:reduce){.particle{display:none}}</style>
+    <style>
+      .particle{opacity:.9}
+      @keyframes glow{0%,100%{opacity:.3}50%{opacity:.72}}
+      @keyframes drift{0%,100%{transform:translateY(2px)}50%{transform:translateY(-4px)}}
+      @keyframes signal{0%,100%{opacity:.35}50%{opacity:1}}
+      .scene{animation:drift 8s ease-in-out infinite}
+      .aura{animation:glow 5s ease-in-out infinite}
+      .signal{animation:signal 4s ease-in-out infinite}
+      @media (prefers-reduced-motion:reduce){.particle{display:none}.scene,.aura,.signal{animation:none}}
+    </style>
   </defs>
   <rect width="1280" height="600" rx="24" fill="url(#background)"/>
   <rect width="1280" height="600" rx="24" fill="url(#dots)"/>
@@ -24,12 +33,12 @@
   <path d="M699 0V600" stroke="#314256" stroke-opacity="0.08"/>
   <path d="M72 526H1208" stroke="#34445D" stroke-opacity="0.6"/>
   <g font-family="Segoe UI, Arial, sans-serif">
-    <text x="74" y="64" fill="#E2E8F0" font-size="16" font-weight="600" letter-spacing="2.7">NIKHIL KUMAR SURINENI</text>
-    <text x="74" y="92" fill="#778CA5" font-family="Consolas, monospace" font-size="14">@nikhilsurineni</text>
-    <text x="69" y="194" fill="#F1F5F9" font-size="83" font-weight="650" letter-spacing="-3">I love</text>
-    <text x="66" y="316" fill="url(#data)" font-size="137" font-weight="800" letter-spacing="-7">DATA<tspan fill="#FB8EB6">.</tspan></text>
-    <text x="74" y="368" fill="#F1F5F9" font-size="27" font-weight="700" letter-spacing="2">DATA PLATFORM ENGINEER</text>
-    <text x="74" y="412" fill="#A8B8CC" font-size="21">Building the platforms that let data thrive.</text>
+    <text x="74" y="64" fill="#81BAAA" font-size="14" font-weight="600" letter-spacing="3">DATA / CLOUD / AUTOMATION</text>
+    <text x="69" y="181" fill="#F1F5F9" font-size="75" font-weight="700" letter-spacing="-3">Nikhil Kumar</text>
+    <text x="67" y="270" fill="url(#data)" font-size="89" font-weight="750" letter-spacing="-4">Surineni<tspan fill="#FB8EB6">.</tspan></text>
+    <text x="74" y="331" fill="#DCE8F3" font-size="25" font-weight="500">Engineering the foundations</text>
+    <text x="74" y="365" fill="#DCE8F3" font-size="25" font-weight="500">of trusted data.</text>
+    <text x="74" y="412" fill="#8CA2BC" font-size="18">Reliable by design. Governed by default.</text>
     <rect x="74" y="454" width="472" height="36" rx="18" fill="#102A31" stroke="#24434B"/>
     <circle cx="94" cy="472" r="4" fill="#64F5D4"/>
     <text x="110" y="477" fill="#8FDDCF" font-size="13" font-weight="600" letter-spacing="1.2">ENTERPRISE DATA MANAGEMENT AT AMGEN</text>
@@ -38,8 +47,9 @@
     <text x="262" y="566" fill="#A2B4C9" font-size="16" font-weight="600" letter-spacing="2">DATABRICKS</text>
     <circle cx="413" cy="561" r="2" fill="#57E8CD"/>
     <text x="433" y="566" fill="#A2B4C9" font-size="16" font-weight="600" letter-spacing="2">AWS</text>
-    <text x="1188" y="566" text-anchor="end" fill="#728BA2" font-size="13" letter-spacing="2">PASSION → PLATFORMS → POSSIBILITY</text>
+    <text x="1188" y="566" text-anchor="end" fill="#728BA2" font-size="13" letter-spacing="2">CONNECT / GOVERN / ENABLE</text>
   </g>
+  <g class="scene">
   <g stroke="#69DDCB">
     <circle cx="985" cy="285" r="190" stroke-opacity="0.17"/>
     <circle cx="985" cy="285" r="160" stroke-opacity="0.1" stroke-dasharray="3 10"/>
@@ -48,12 +58,13 @@
     <path d="M985 80V102M985 468V490M780 285H802M1168 285H1190" stroke-opacity="0.4"/>
     <path d="M855 146L868 159M1103 403L1116 416M855 424L868 411M1103 167L1116 154" stroke-opacity="0.25"/>
   </g>
-  <use href="#heartPath" stroke="url(#heart)" stroke-width="7" opacity="0.55" filter="url(#bloom)"/>
+  <use class="aura" href="#heartPath" stroke="url(#heart)" stroke-width="9" opacity="0.55" filter="url(#bloom)"/>
   <use href="#heartPath" fill="#131D31" fill-opacity="0.9" stroke="url(#heart)" stroke-width="2.5"/>
   <g clip-path="url(#heartClip)">
     <path d="M852 222L1119 370M852 272L1106 210M870 320L1060 192M887 354L1108 251M943 201L1001 394M1055 189L955 376M859 265L1111 288M882 311L1092 326M886 220L1094 341M923 192L1053 367" stroke="#5EEAD4" stroke-width="1" stroke-opacity="0.23"/>
     <path d="M893 237L938 257L985 235L1033 261L1077 236M893 237L909 296L958 320L985 369L1019 321L1068 291L1077 236M909 296L938 257L958 320L985 235L1019 321L1033 261L1068 291M909 296L1033 261M938 257L1068 291M958 320L1033 261" stroke="#77F5DE" stroke-width="1.5" stroke-opacity="0.7"/>
-    <g fill="#6FF4DC"><circle cx="893" cy="237" r="4"/><circle cx="938" cy="257" r="4"/><circle cx="985" cy="235" r="5"/><circle cx="1033" cy="261" r="4"/><circle cx="1077" cy="236" r="4"/><circle cx="909" cy="296" r="4"/><circle cx="958" cy="320" r="4"/><circle cx="1019" cy="321" r="4"/><circle cx="1068" cy="291" r="4"/><circle cx="985" cy="369" r="3"/></g>
+    <g fill="#6FF4DC"><circle class="signal" cx="893" cy="237" r="4"/><circle cx="938" cy="257" r="4"/><circle class="signal" style="animation-delay:-1s" cx="985" cy="235" r="5"/><circle cx="1033" cy="261" r="4"/><circle class="signal" style="animation-delay:-2s" cx="1077" cy="236" r="4"/><circle cx="909" cy="296" r="4"/><circle class="signal" style="animation-delay:-3s" cx="958" cy="320" r="4"/><circle cx="1019" cy="321" r="4"/><circle class="signal" cx="1068" cy="291" r="4"/><circle cx="985" cy="369" r="3"/></g>
+    <circle class="aura" cx="985" cy="283" r="36" fill="#48EBD0" opacity="0.4" filter="url(#bloom)"/>
     <circle cx="985" cy="283" r="22" fill="#123D41" stroke="#74F3DB" stroke-opacity="0.5"/>
     <g stroke="#B6FFF1" stroke-width="1.5"><ellipse cx="985" cy="276" rx="10" ry="4"/><path d="M975 276V290C975 295 995 295 995 290V276M975 283C975 288 995 288 995 283"/></g>
   </g>
@@ -64,7 +75,7 @@
     <circle cx="1109" cy="211" r="3" fill="#67C9F1"/><text x="1123" y="216" fill="#BCD5E2">CLOUD</text>
     <rect x="745" y="361" width="155" height="34" rx="17" fill="#0D1C2D" stroke="#284557"/>
     <circle cx="762" cy="378" r="3" fill="#F59BBF"/><text x="776" y="383" fill="#BCD5E2">AUTOMATION</text>
-    <text x="985" y="505" text-anchor="middle" fill="#7EA0B5" font-size="12" letter-spacing="3">DATA AT THE HEART OF IT ALL</text>
+    <text x="985" y="505" text-anchor="middle" fill="#7EA0B5" font-size="12" letter-spacing="3">BUILT AROUND DATA</text>
   </g>
   <g fill="#5EEAD4">
     <circle cx="985" cy="95" r="4"/>
@@ -79,4 +90,6 @@
   <circle class="particle" r="3" fill="#B4FFF0"><animateMotion dur="18s" repeatCount="indefinite"><mpath href="#orbitA"/></animateMotion></circle>
   <circle class="particle" r="2.5" fill="#FB9FC2"><animateMotion dur="24s" begin="-9s" repeatCount="indefinite"><mpath href="#orbitA"/></animateMotion></circle>
   <g transform="rotate(-26 985 285)"><circle class="particle" r="2.5" fill="#72DAFF"><animateMotion dur="13s" repeatCount="indefinite"><mpath href="#orbitB"/></animateMotion></circle></g>
+  <circle class="particle" r="3" fill="#6FF4DC"><animateMotion dur="7s" repeatCount="indefinite" path="M893 237L938 257L985 235L1033 261L1068 291L1019 321L985 369L958 320L909 296Z"/></circle>
+  </g>
 </svg>
