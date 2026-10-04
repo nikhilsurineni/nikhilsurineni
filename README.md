@@ -1,9 +1,10 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/nikhilsurineni/nikhilsurineni/main/assets/profile-banner.svg" width="100%" alt="Nikhil Kumar Surineni | Enterprise Data Management Platform Engineer | Data platforms, cloud, and automation" />
+  <img src="https://raw.githubusercontent.com/nikhilsurineni/nikhilsurineni/main/assets/data-foundations.svg" width="100%" alt="Nikhil Kumar Surineni — Engineering the foundations of trusted data. A connected data-heart surrounded by cloud, governance, and automation." />
 </p>
 
 <p align="center">
-  <b>Informatica · Databricks · AWS · Platform Reliability · Data Governance</b>
+  <b>Informatica · Databricks · AWS</b><br />
+  <sub>Platform reliability &nbsp; / &nbsp; Data governance &nbsp; / &nbsp; Operational automation</sub>
 </p>
 
 <p align="center">
@@ -14,27 +15,31 @@
 
 ---
 
-### Turning complex data platforms into dependable services.
+## Behind every insight, a platform that works.
 
-I'm **Nikhil**, an **Enterprise Data Management Platform Engineer at Amgen India**, with **5 years of experience** across enterprise data platforms, cloud infrastructure, and production operations. I work at the intersection of platform reliability, secure data access, and automation in regulated enterprise environments.
+I'm **Nikhil**. I work on the foundations that help teams turn data into something useful: dependable infrastructure, trusted access, and platforms that are ready when they're needed.
 
-My focus: keep platforms healthy, make operations repeatable, and help teams access the data they need securely.
+At **Amgen India**, I support enterprise data management platforms across **Informatica, Databricks, and AWS**. My **5 years of experience** span platform operations, cloud infrastructure, secure access, and automation.
 
-### What I bring to the platform
+### Built for the full picture
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/nikhilsurineni/nikhilsurineni/main/assets/data-flow.svg" width="100%" alt="Data flows from enterprise sources, cloud storage, and APIs through Informatica and Databricks platforms and governed access to analytics and AI readiness." />
+</p>
 
 <table>
   <tr>
     <td width="33%" valign="top">
-      <h3>01 / Operate</h3>
-      <p>Administration and production support for <b>Informatica MDM, IDQ, IDMC/IICS, and Databricks</b>. Health checks, environment maintenance, incident resolution, and service continuity.</p>
+      <h3>01 / Keep it reliable</h3>
+      <p>Healthy <b>Informatica and Databricks</b> platforms, resilient AWS infrastructure, proactive monitoring, and thoughtful incident response. Because great data needs a dependable home.</p>
     </td>
     <td width="33%" valign="top">
-      <h3>02 / Govern</h3>
-      <p><b>Unity Catalog, RBAC, and AWS IAM</b>. Secure S3 integrations, access reviews, governance controls, and audit readiness for enterprise data platforms.</p>
+      <h3>02 / Build trust</h3>
+      <p><b>Unity Catalog, RBAC, and AWS IAM</b>. Governed access, secure S3 integrations, and audit readiness. The right data, available to the right people.</p>
     </td>
     <td width="33%" valign="top">
-      <h3>03 / Automate</h3>
-      <p><b>Python, SQL, Shell, and REST APIs</b>. Repeatable administration, operational monitoring, runbooks, and continuous improvements that reduce manual effort.</p>
+      <h3>03 / Make it repeatable</h3>
+      <p><b>Python, SQL, Shell, and REST APIs</b>. Automating everyday operations and creating clear runbooks, so teams spend less time on manual tasks and more time on data.</p>
     </td>
   </tr>
 </table>
@@ -50,7 +55,10 @@ My focus: keep platforms healthy, make operations repeatable, and help teams acc
 | **Databases** | Oracle · MySQL · PostgreSQL · Snowflake |
 | **Operations** | Splunk · ServiceNow · Postman · Incident management · RCA |
 
-### Experience that shapes my work
+<details>
+<summary><b>My platform engineering journey · Cognizant → Amgen</b></summary>
+
+<br />
 
 **Amgen India Pvt Ltd** · Enterprise Data Management Platform Engineer  
 *October 2025 - Present*
@@ -62,9 +70,11 @@ Enterprise platform operations for Informatica MDM, IDQ, and Databricks; AWS inf
 
 Informatica IICS/IDMC administration, API-driven operational automation, monitoring and capacity planning, access governance, disaster recovery, and production incident management.
 
-### Building in the open
+</details>
 
-I'm expanding my hands-on cloud and DevOps practice through AWS, Docker, and Kubernetes. Here are the repositories behind that learning:
+### Curiosity, turned into practice
+
+I keep exploring the infrastructure behind modern data platforms. My current hands-on learning spans **AWS, Docker, and Kubernetes**:
 
 | Repository | Focus |
 | :--- | :--- |
@@ -89,6 +99,6 @@ I'm expanding my hands-on cloud and DevOps practice through AWS, Docker, and Kub
 ---
 
 <p align="center">
-  <b>Reliable platforms. Governed data. Automated operations.</b><br />
-  <sub>Always learning. Always improving the systems behind the data.</sub>
+  <b>Connect the systems. Build the trust. Enable the possibilities.</b><br />
+  <sub>Always learning. Always improving the foundations.</sub>
 </p>
