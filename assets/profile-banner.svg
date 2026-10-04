@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="440" viewBox="0 0 1280 440" fill="none">
+  <title>Nikhil Kumar Surineni - Enterprise Data Management Platform Engineer</title>
+  <desc>A navy and teal banner connecting data platforms, cloud infrastructure, and automation.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1280" y2="440" gradientUnits="userSpaceOnUse"><stop stop-color="#0B1220"/><stop offset="1" stop-color="#102C3A"/></linearGradient>
+    <linearGradient id="accent" x1="760" y1="40" x2="1210" y2="400" gradientUnits="userSpaceOnUse"><stop stop-color="#5EEAD4"/><stop offset="1" stop-color="#38BDF8"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" stroke="#5EEAD4" stroke-opacity="0.055"/></pattern>
+    <radialGradient id="glow"><stop stop-color="#14B8A6" stop-opacity="0.16"/><stop offset="1" stop-color="#14B8A6" stop-opacity="0"/></radialGradient>
+  </defs>
+  <rect width="1280" height="440" rx="20" fill="url(#bg)"/>
+  <rect width="1280" height="440" rx="20" fill="url(#grid)"/>
+  <ellipse cx="1060" cy="220" rx="360" ry="320" fill="url(#glow)"/>
+  <rect x="0" y="0" width="7" height="440" rx="3" fill="#5EEAD4"/>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <text x="58" y="62" fill="#5EEAD4" font-size="15" font-weight="600" letter-spacing="3">DATA PLATFORMS / CLOUD / AUTOMATION</text>
+    <text x="55" y="143" fill="#F0F6FC" font-size="65" font-weight="700" letter-spacing="-2">Nikhil Kumar</text>
+    <text x="55" y="213" fill="#F0F6FC" font-size="65" font-weight="700" letter-spacing="-2">Surineni<tspan fill="#5EEAD4">.</tspan></text>
+    <text x="58" y="262" fill="#CBD5E1" font-size="24" font-weight="500">Enterprise Data Management</text>
+    <text x="58" y="294" fill="#CBD5E1" font-size="24" font-weight="500">Platform Engineer</text>
+    <text x="58" y="342" fill="#94A3B8" font-size="18">Reliable platforms. Governed data. Automated operations.</text>
+    <path d="M58 371H650" stroke="#334155"/>
+    <text x="58" y="406" fill="#94A3B8" font-size="15" letter-spacing="1">5 YEARS OF EXPERIENCE</text>
+    <circle cx="284" cy="401" r="3" fill="#5EEAD4"/>
+    <text x="302" y="406" fill="#94A3B8" font-size="15" letter-spacing="1">HYDERABAD, INDIA</text>
+  </g>
+  <g stroke="url(#accent)" stroke-width="1.5">
+    <path d="M870 114H838V324H870" stroke-opacity="0.6"/>
+    <path d="M838 220H784" stroke-opacity="0.6"/>
+    <circle cx="784" cy="220" r="7" fill="#0B1220"/>
+    <circle cx="784" cy="220" r="2" fill="#5EEAD4" stroke="none"/>
+    <path d="M1170 114H1202V324H1170" stroke-opacity="0.4"/>
+    <path d="M1020 151V181M1020 255V285" stroke-opacity="0.7"/>
+  </g>
+  <g font-family="Segoe UI, Arial, sans-serif">
+    <rect x="870" y="76" width="300" height="76" rx="12" fill="#111F30" stroke="#2B4B5A"/>
+    <rect x="889" y="96" width="36" height="36" rx="9" fill="#133B3F"/>
+    <g stroke="#5EEAD4" stroke-width="1.5"><ellipse cx="907" cy="106" rx="9" ry="4"/><path d="M898 106V120C898 125 916 125 916 120V106M898 113C898 118 916 118 916 113"/></g>
+    <text x="943" y="107" fill="#F0F6FC" font-size="18" font-weight="600">DATA PLATFORMS</text>
+    <text x="943" y="130" fill="#94A3B8" font-size="14">Informatica / Databricks</text>
+    <rect x="870" y="182" width="300" height="76" rx="12" fill="#111F30" stroke="#2B4B5A"/>
+    <rect x="889" y="202" width="36" height="36" rx="9" fill="#12344A"/>
+    <path d="M897 225H916C923 225 922 215 916 215C914 205 901 207 901 215C893 214 891 225 897 225Z" stroke="#38BDF8" stroke-width="1.5"/>
+    <text x="943" y="213" fill="#F0F6FC" font-size="18" font-weight="600">CLOUD INFRASTRUCTURE</text>
+    <text x="943" y="236" fill="#94A3B8" font-size="14">AWS / Linux / Access controls</text>
+    <rect x="870" y="288" width="300" height="76" rx="12" fill="#111F30" stroke="#2B4B5A"/>
+    <rect x="889" y="308" width="36" height="36" rx="9" fill="#133B3F"/>
+    <path d="M899 319L905 325L899 331M909 331H916" stroke="#5EEAD4" stroke-width="2"/>
+    <text x="943" y="319" fill="#F0F6FC" font-size="18" font-weight="600">AUTOMATION</text>
+    <text x="943" y="342" fill="#94A3B8" font-size="14">Python / SQL / Shell / REST APIs</text>
+    <circle cx="891" cy="401" r="4" fill="#5EEAD4"/>
+    <text x="906" y="406" fill="#5EEAD4" font-size="13" letter-spacing="2">ENGINEERED FOR RELIABILITY</text>
+  </g>
+</svg>
